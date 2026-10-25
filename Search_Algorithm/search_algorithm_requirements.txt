@@ -1,0 +1,2 @@
+# Requirements for Search Algorithm
+networkx>=3.0
