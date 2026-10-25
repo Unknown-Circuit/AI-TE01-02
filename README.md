@@ -62,5 +62,18 @@ Implementasi berbagai algoritma pencarian jalur (*Search Algorithms*) seperti BF
    ```bash
    cd Flight_Booking_Agent
    pip install -r requirements.txt
+
+
+## Source / Referensi
+
+- Repositori Asal: [tzolov/playground-flight-booking](https://github.com/tzolov/playground-flight-booking).
+- Penulis / Kontributor Utama: **Tsvetan Zolov**.
+- Snapshot: [commit terbaru](https://github.com/tzolov/playground-flight-booking/tree/main).
+- Source Inti Agen & Tools: Modul sistem pemesanan penerbangan dan pencarian rute berbasis AI Agent / Multi-Agent Framework.
+- Lisensi: Terikat pada lisensi asli repositori upstream (disertakan di `LICENSE`).
+- Penyesuaian Struktur:
+  - Kode dan modul dari repositori asli telah direstrukturisasi ke dalam folder modul terpisah (`Flight_Booking_Agent`, `Multi_Agent_System`, dan `Flight_Search_Algorithm`) agar sesuai dengan standar format proyek `PT-Mencari-Bakat/AI-TE01-03`.
+  - Penambahan antarmuka `app.py`, skrip eksekusi `main.py`, konfigurasi dependensi `requirements.txt`, serta dokumentasi `README.md` berbahasa Indonesia untuk setiap modul.
+  - Dokumentasi asli disimpan/disesuaikan dalam file `project_report_Version1.md` dan `README.md`.
    python app.py
    ```
