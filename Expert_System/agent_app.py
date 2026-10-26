@@ -1,5 +1,5 @@
 import sys
-from flight_booking_core import FlightBookingCore
+from core import FlightBookingCore
 from flight_knowledge_base import FlightKnowledgeBase
 
 def main():
